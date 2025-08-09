@@ -98,7 +98,7 @@ Contributions are shared under an **open research license** unless otherwise spe
 
 For collaboration proposals or technical questions, please contact:
 **Research Lab Coordination** — *University of Costa Rica*
-📧 [contact@example.com](mailto:contact@example.com)
+📧 [marvin.coto@ucr.ac.cr](mailto:marvin.coto@ucr.ac.cr)
 
 ```
 
