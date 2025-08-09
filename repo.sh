@@ -6,16 +6,26 @@ set -euo pipefail
 mkdir -p ./{datasets,src/{agents,forecasting,preprocessing,evaluation,utils},results,docs,notebooks}
 
 
+
 # Archivos básicos
 cat > README.md <<'EOF'
 # 🤖 AI Agents for Time Series Forecasting
-See CONTRIBUTING.md for contribution workflow and technical guidelines.
+Repository for collaborative research on using AI agents to analyze and forecast time series data.
+See CONTRIBUTING.md for guidelines on adding features and modules.
 EOF
 
 cat > CONTRIBUTING.md <<'EOF'
 # Contributing Guidelines
-1) Fork → 2) Feature branch → 3) Pull Request.
-Include methodology, results, and reproduction steps.
+1. Fork this repository.
+2. Create a feature branch:
+   git checkout -b feature/your-feature
+3. Implement your changes.
+4. Include:
+   - Purpose of the contribution
+   - Methods used
+   - Results obtained
+   - Reproduction steps
+5. Submit a Pull Request.
 EOF
 
 cat > requirements.txt <<'EOF'
@@ -35,9 +45,8 @@ __pycache__/
 venv/
 .env
 
-# Large data & model files
-datasets/
-results/
+# Model files
+models/
 
 # Notebooks checkpoints
 .ipynb_checkpoints/

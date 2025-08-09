@@ -5,9 +5,8 @@ __pycache__/
 venv/
 .env
 
-# Large data & model files
-datasets/
-results/
+# Model files
+models/
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
