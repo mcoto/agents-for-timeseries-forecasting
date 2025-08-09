@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Large data & model files
+datasets/
+results/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
